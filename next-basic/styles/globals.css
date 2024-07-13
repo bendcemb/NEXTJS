@@ -1,0 +1,91 @@
+@keyframes color-change {
+  0% {
+    color: #e7628a;
+  }
+  10% {
+    color: orangered;
+  }
+  20% {
+    color: yellow;
+  }
+  30% {
+    color: green;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: rgb(0, 81, 128);
+  }
+  60%{
+    color: rgb(55, 116, 173);
+  }
+  70%{
+    color: rgb(118, 204, 193);
+  }
+  80%{
+    color: rgb(172, 226, 196);
+  }
+  90%{
+    color: rgb(255, 255, 255);
+  }
+  100%{
+    color: purple;
+  }
+}
+
+body{
+  background: #f2f2f2;
+  color: black;
+}
+
+nav{
+  margin: 5px auto;
+  /* padding: 5px 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  padding-right: 12px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  margin-left: 12px;
+  font-size: 18px;
+  padding: 10px;
+}
+nav a:hover{
+  color: orange;
+}
+nav .logo{
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+nav .logo-name{
+  margin-right: auto;
+  padding-left: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+  text-shadow: 1px 1px 2px #eaeaea; /* Add a subtle text shadow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-name:hover{
+  animation: color-change 30s infinite;
+}
+
+footer{
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  color: #777;
+  border-top: 1px solid #eaeaea;
+}
+a{
+  text-decoration: none;
+}
+
